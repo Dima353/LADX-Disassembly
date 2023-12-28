@@ -42,8 +42,13 @@ jobs:
     - name: Build ROMs
       run: make all
 
+- name: Copy specific .gbc files to temp folder
+  run: |
+    mkdir temp_folder
+    cp azle-r1.gbc azle-r2.gbc temp_folder
+
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
       with:
         name: Links_Awakening_DX-ROM
-        path: .
+        path: temp_folder
