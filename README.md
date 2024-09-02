@@ -74,4 +74,5 @@ Thanks to these people for contributing:
 * zelosos - https://gitlab.com/zelosos
 * tobiasvl - https://github.com/tobiasvl
 
+
 ([See contribution details here](https://github.com/zladx/LADX-Disassembly/graphs/contributors))
